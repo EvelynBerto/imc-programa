@@ -1,0 +1,2 @@
+O Indice de massa corporal é medido pelo peso e altura do usuário, esse simples código pede essas informações do usuário
+e imprime seu índice
