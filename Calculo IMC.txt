@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+        String nome;
+        int peso;
+        Double altura;
+        Scanner leia = new Scanner(System.in);
+		System.out.println("Qual é o seu nome? ");
+		nome = leia.nextLine();
+		System.out.println("Qual seu peso? ");
+		peso = leia.nextInt();
+		System.out.println("Qual sua altura? ");
+		altura = leia.nextDouble();
+		System.out.println("Seu IMC é: " + (peso/(altura*altura)));
+	}
+}
